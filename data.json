@@ -1,0 +1,30 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhabalar", "Selamlar", "Nasılsın", "Naber", "Selam","Merhaba"],
+         "responses": ["Merhabalar :)", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim"],
+         "context_set": ""
+        },
+        {"tag": "ayrılma",
+         "patterns": ["by", "görüşürüz", "tekrar görüşmek üzere", "ben gidiyorum", "bay bay"],
+         "responses": ["görüşürüz:(", "tekrar konuşmak üzere", "bay bay"],
+         "context_set": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Film önerir misin", "Film izlemek istiyorum","Film","Bana bir film öner"],
+          "responses": [ "Ne tür bir film izlemek istersin?(örneğin korku,dram vs.)"],
+         "context_set": ""
+        },
+        {"tag": "puan",
+         "patterns": ["Dram", "Suç draması", "Aksiyon","Suç","Macera","Biyografi","Tarih","Romantik","Batılı","Bilim Kurgu","Korku","Gizem","Gerilim","Aile","Animasyon","Fantezi","Müzik","Komedi","Savaş","Spor"],
+         "responses": ["Puan aralığınız nedir?(Örneğin 7 puan üstü, 9 puan altı vs.)"],
+         "context_set": ""
+        },
+        {"tag": "öneri",
+         "patterns": ["1 puan üstü","1 puan altı","2 puan üzeri","2 puan altı","3 puan üzeri","3 puan altı","4 puan üzeri","4 puan altı","5 puan üzeri","5 puan altı","6 puan üzeri","6 puan altı","7 puan üzeri","7 puan altı","8 puan üzeri","8 puan altı","9 puan üzeri","9 puan altı"],
+         "responses": ["Film önerim"],
+         "context_set": ""
+        }
+
+ 
+ ]
+}
